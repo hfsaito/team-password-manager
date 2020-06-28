@@ -1,0 +1,26 @@
+{
+  "name": "team-password-manager",
+  "version": "1.0.0",
+  "description": "Manage and share passwords with your team",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiroshifariassaito/team-password-manager.git"
+  },
+  "author": "Hiroshi Farias Saito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hiroshifariassaito/team-password-manager/issues"
+  },
+  "homepage": "https://github.com/hiroshifariassaito/team-password-manager#readme",
+  "engines": {
+    "node": "12.18.1",
+    "yarn": "1.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.6",
+    "typescript": "3.9.5"
+  }
+}
