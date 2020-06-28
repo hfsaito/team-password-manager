@@ -2,25 +2,36 @@
   "name": "team-password-manager",
   "version": "1.0.0",
   "description": "Manage and share passwords with your team",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r ./tsconfig-paths-bootstrap.js ./dist/index.js",
+    "start:dev": "ts-node-dev -r tsconfig-paths/register ./src/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hiroshifariassaito/team-password-manager.git"
   },
-  "author": "Hiroshi Farias Saito",
+  "author": "Hiroshi Farias Saito (https://github.com/hiroshifariassaito)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hiroshifariassaito/team-password-manager/issues"
   },
   "homepage": "https://github.com/hiroshifariassaito/team-password-manager#readme",
   "engines": {
-    "node": "12.18.1",
+    "node": "12.16.2",
     "yarn": "1.22.4"
   },
   "devDependencies": {
+    "@types/express": "4.17.6",
     "@types/node": "12.12.6",
+    "ts-node-dev": "1.0.0-pre.49",
     "typescript": "3.9.5"
+  },
+  "dependencies": {
+    "@decorators/di": "1.0.2",
+    "@decorators/express": "2.3.0",
+    "express": "4.17.1",
+    "tsconfig-paths": "3.9.0"
   }
 }
