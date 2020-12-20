@@ -9,10 +9,10 @@
   dependencies:
     reflect-metadata "0.1.10"
 
-"@decorators/express@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@decorators/express/-/express-2.3.0.tgz#57561af60b000382f6e3827d959a794f582dca01"
-  integrity sha512-USdMoGlDpqtjFDfi0Aj4nlydv+nyZVpaN3aG5pG8vEmvLoiT0dLzlm1zLmcNgCdgCpSGPkoN1IFqm+spLTz4wQ==
+"@decorators/express@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@decorators/express/-/express-2.4.0.tgz#09888e04ef49ffbe7677e977a659559cdff8a405"
+  integrity sha512-V3Ig8uT5uFy5QgDs5HCkiZiVkuk5r4U0L4uoleDPRDWVx7aqFw0FrOV8Ng8vNFN9/cuRT9hHqxaQIb2dFLonCg==
 
 "@types/body-parser@*":
   version "1.19.0"
@@ -38,10 +38,10 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
-"@types/express@4.17.6":
-  version "4.17.6"
-  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.6.tgz#6bce49e49570507b86ea1b07b806f04697fac45e"
-  integrity sha512-n/mr9tZI83kd4azlPG5y997C/M4DNABK9yErhFM6hKdym4kkmd9j0vtsJyjFIwfRBxtrxZtAfGZCNRIBMFLK5w==
+"@types/express@4.17.9":
+  version "4.17.9"
+  resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.9.tgz#f5f2df6add703ff28428add52bdec8a1091b0a78"
+  integrity sha512-SDzEIZInC4sivGIFY4Sz1GG6J9UObPwCInYJjko2jzOf/Imx/dlpume6Xxwj1ORL82tBbmN4cPDIDkLbWHk9hw==
   dependencies:
     "@types/body-parser" "*"
     "@types/express-serve-static-core" "*"
@@ -63,10 +63,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.14.tgz#24a0b5959f16ac141aeb0c5b3cd7a15b7c64cbce"
   integrity sha512-syUgf67ZQpaJj01/tRTknkMNoBBLWJOBODF0Zm4NrXmiSuxjymFrxnTu1QVYRubhVkRcZLYZG8STTwJRdVm/WQ==
 
-"@types/node@12.12.6":
-  version "12.12.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.6.tgz#a47240c10d86a9a57bb0c633f0b2e0aea9ce9253"
-  integrity sha512-FjsYUPzEJdGXjwKqSpE0/9QEh6kzhTAeObA54rn6j3rR4C/mzpI9L0KNfoeASSPMMdxIsoJuCLDWcM/rVjIsSA==
+"@types/node@14.14.14":
+  version "14.14.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.14.tgz#f7fd5f3cc8521301119f63910f0fb965c7d761ae"
+  integrity sha512-UHnOPWVWV1z+VV8k6L1HhG7UbGBgIdghqF3l9Ny9ApPghbjICXkUJSd/b9gOgQfjM1r+37cipdw/HJ3F6ICEnQ==
 
 "@types/qs@*":
   version "6.9.3"
